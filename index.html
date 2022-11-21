@@ -17,8 +17,8 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar bg-light fixed-top">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-white border-bottom fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="/">
           <img src="./assets/images/logo.svg" alt="" />
         </a>
@@ -39,7 +39,7 @@
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img src="./assets/images/logo.svg" alt="" />
+              <img src="./assets//images/logo.svg" alt="" />
             </h5>
             <button
               type="button"
@@ -51,10 +51,16 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#destinations">Destinations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#hotels">Hotels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#flights">Flights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bookings">Bookings</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -64,21 +70,21 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  <i class="ri-translate-2"></i>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Bahasa</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Request</a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex mt-3" role="search">
+            <form class="d-flex mt-3 mt-lg-0" role="search">
               <input
                 class="form-control me-2"
                 type="search"
@@ -86,7 +92,7 @@
                 aria-label="Search"
               />
               <button class="btn btn-outline-success" type="submit">
-                Search
+                <i class="ri-search-2-line"></i>
               </button>
             </form>
           </div>
@@ -94,114 +100,28 @@
       </div>
     </nav>
 
-    <!-- Hero -->
-    <section id="hero" class="section-padding">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6 align-items-center">
-            <p class="text-uppercase fw-bold">
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container my-5">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="heroSEO h6 text-uppercase fw-bold">
               Best Destinations Around the World
-            </p>
-            <h1 class="display-2 fw-bold">
-              Travel, enjoy and live a new and full life
             </h1>
-            <p class="lead mt-3 mb-4">
-              Built Wicket longer admire do barton vanity itself do in it.
-              Preferred to sportsmen it engrossed listening. Park gate sell they
-              west hard for the.
-            </p>
-            <div>
-              <a href="#" class="btn btn-primary">Find Out More</a>
+            <h2 class="heroMarketing display-2">
+              Travel, enjoy and live a new and full life
+            </h2>
+            <div class="d-grid gap-2 d-md-block mt-4">
+              <button class="btn btn-danger" type="button">
+                Find Out More
+              </button>
+              <button class="btn btn-outline-success ms-lg-3" type="button">
+                <i class="ri-play-fill"></i> Play Demo
+              </button>
             </div>
           </div>
           <div class="col-lg-6">
             <img src="./assets/images/hero-1.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="section-padding">
-      <div class="container text-center">
-        <div class="row mb-5">
-          <div class="col-lg-8 mx-auto">
-            <p class="h6 text-uppercase">Category</p>
-            <h2 class="fw-bold">We Offer Best Services</h2>
-          </div>
-        </div>
-
-        <!-- CARDS -->
-        <div class="row g-4 text-center">
-          <!-- CARD -->
-          <div class="col-lg-3">
-            <div class="serviceCard text-center border p-3">
-              <img src="./assets/images/Group 48.svg" alt="" />
-              <h3 class="h4 my-3">Calculated Weather</h3>
-              <p>
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
-            </div>
-          </div>
-          <!-- CARD -->
-          <div class="col-lg-3">
-            <div class="serviceCard text-center border p-3">
-              <img src="./assets/images/Group 51-trimmy.png" alt="" />
-              <h3 class="h4 my-3">Best Flights</h3>
-              <p>Engrossed listening. Park gate sell they west hard for the.</p>
-            </div>
-          </div>
-          <!-- CARD -->
-          <div class="col-lg-3">
-            <div class="serviceCard text-center border p-3">
-              <img src="./assets/images/Group 48.svg" alt="" />
-              <h3 class="h4 my-3">Local Events</h3>
-              <p>
-                Barton vanity itself do in it. Preferd to men it engrossed
-                listening.
-              </p>
-            </div>
-          </div>
-          <!-- CARD -->
-          <div class="col-lg-3">
-            <div class="serviceCard text-center border p-3">
-              <img src="./assets/images/Group 50.svg" alt="" />
-              <h3 class="h4 my-3">Customization</h3>
-              <p>
-                We deliver outsourced aviation services for military customers
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- DESTINATIONS -->
-    <section id="destination" class="section-padding">
-      <div class="container text-center">
-        <div class="row mb-5">
-          <div class="col-lg-8 mx-auto">
-            <p class="h6 text-uppercase">Top Selling</p>
-            <h2 class="fw-bold">Top Destinations</h2>
-          </div>
-        </div>
-
-        <!-- CARDS -->
-        <div class="row g-4">
-          <!-- CARD -->
-          <div class="col-lg-4">
-            <div class="destinationCard">
-              <div class="media">
-                <img src="./assets/images/destination-1.jpg" alt="" />
-              </div>
-              <div class="content">
-                <div class="title">
-                  <h3>Rome, Italy</h3>
-                  <span>$5.42K</span>
-                </div>
-                <p><i class="ri-navigation-fill"></i> 10 days trip</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
