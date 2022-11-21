@@ -1,0 +1,82 @@
+/* FONTS */
+@import url(../fonts/volkhov/volkhov.css);
+@import url(../fonts/poppins/poppins.css);
+
+/* VARIABLES */
+:root {
+  --f-display: "Volkhov", sans-serif;
+  --f-body: "Poppins", sans-serif;
+  --c-brand: #181e4b;
+  --c-body: #5e6282;
+}
+
+/* RESETS */
+body {
+  font-family: var(--f-body);
+  font-size: 16px;
+  color: var(--c-body);
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--f-display);
+  color: var(--c-brand);
+}
+
+/* HELPERS */
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* DESTINATIONS */
+.destinationCard {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+  border-radius: 24px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+}
+.destinationCard .media {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.destinationCard .media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.destinationCard .content {
+  padding: 0 24px;
+}
+
+.destinationCard .content .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destinationCard .content p {
+  text-align: start;
+}
+.destinationCard .content .title h3,
+.destinationCard .content .title span {
+  font-size: 18px;
+  font-family: var(--f-body);
+  font-weight: 600;
+}

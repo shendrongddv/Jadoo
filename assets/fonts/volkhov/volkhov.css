@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Volkhov-400.woff") format("woff");
+}
+@font-face {
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Volkhov-700.woff") format("woff");
+}
